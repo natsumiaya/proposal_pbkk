@@ -1,0 +1,68 @@
+\documentclass[12pt, a4paper, oneside]{book}
+%\author{aya}
+\usepackage[top=3cm,right=2cm,bottom=3cm,left=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{anyfontsize}
+\usepackage{wrapfig}
+\usepackage{enumerate,letltxmacro}
+\LetLtxMacro\itemold\item
+\graphicspath{{images/}}
+
+\setlength{\parindent}{4em}
+\renewcommand{\item}{\itemindent4.5em\itemold}
+
+\begin{document}
+	\begin{center}
+			\fontsize{16}{24}{
+				\textbf{
+					Pemrograman Berbasis Kerangka Kerja\\
+					Sistem Pendukung Domain Kesehatan\\
+		}
+	}
+	\end{center}
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{lambangits}
+		\linebreak
+			\begin{table}[h]
+				\centering
+				\begin{tabular}{lr}
+					M. Vijay Fathur       & 5112100043 \\
+					Nabila Tsurayya Silmi & 5112100055 \\
+					Faishal Azka J        & 5112100061 \\
+					R. M Iskandar Z       & 5112100101 \\
+					Reyhan Arief          & 5112100175 \\
+				\end{tabular}
+			\end{table}
+		\end{center}
+		\begin{center}
+		{		
+			\fontsize{16}{24}{
+				\textbf{
+					Fakultas Teknologi Informasi\\
+					Jurusan Teknik Informatika\\			
+					Institut Teknologi Sepuluh Nopember Surabaya\\
+				} 
+			}
+		}
+	\end{center}
+	
+	\thispagestyle{empty}
+	\pagebreak
+	\tableofcontents
+	\pagebreak
+	\listoffigures
+	\pagebreak
+	\chapter{Deskripsi Produk}
+	\section{Perspektif Produk}
+		\input{perspektif_produk}
+	\section{Klasifikasi dan Karakteristik Pengguna}
+		\input{klasifkasi_pengguna}
+	\section{Lingkungan Pengoperasian}
+	
+	\section{Batasan dan Desain Implementasi}
+	\section{Asumsi dan Ketergantungan}
+	\pagebreak
+	\chapter{Fitur}	
+	\end{document}
+\end{document}
