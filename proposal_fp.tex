@@ -6,11 +6,13 @@
 \usepackage{anyfontsize}
 \usepackage{wrapfig}
 \usepackage{enumerate,letltxmacro}
+\usepackage[english]{babel}
 \LetLtxMacro\itemold\item
 \graphicspath{{images/}}
 
 \setlength{\parindent}{4em}
 \renewcommand{\item}{\itemindent4.5em\itemold}
+\addto\captionsenglish{\renewcommand{\chaptername}{Bab}}
 
 \begin{document}
 	\begin{center}
@@ -62,6 +64,7 @@
 		\input{lingkungan_pengoperasian}
 	\section{Batasan dan Desain Implementasi}
 	\section{Asumsi dan Ketergantungan}
+		\input{asumsi_ketergantungan}
 	\pagebreak
 	\chapter{Fitur}	
 	\end{document}
