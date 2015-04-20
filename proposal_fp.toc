@@ -7,8 +7,14 @@
 \contentsline {section}{\numberline {1.5}Asumsi dan Ketergantungan}{5}
 \contentsline {chapter}{\numberline {2}Fitur}{6}
 \contentsline {section}{\numberline {2.1}Keanggotaan Jaminan Kesehatan}{6}
-\contentsline {subsection}{\numberline {2.1.1}Deskripsi Produk}{6}
+\contentsline {subsection}{\numberline {2.1.1}Deskripsi Fitur}{6}
 \contentsline {subsection}{\numberline {2.1.2}Kebutuhan Fungsional}{6}
-\contentsline {section}{\numberline {2.2}title}{6}
-\contentsline {subsection}{\numberline {2.2.1}Deskripsi Produk}{6}
+\contentsline {section}{\numberline {2.2}Fasilitas Kesehatan}{6}
+\contentsline {subsection}{\numberline {2.2.1}Deskripsi Fitur}{6}
 \contentsline {subsection}{\numberline {2.2.2}Kebutuhan Fungsional}{6}
+\contentsline {section}{\numberline {2.3}Iuran Jaminan Kesehatan}{6}
+\contentsline {subsection}{\numberline {2.3.1}Deskripsi Fitur}{6}
+\contentsline {subsection}{\numberline {2.3.2}Kebutuhan Fungsional}{6}
+\contentsline {section}{\numberline {2.4}Penggunaan Layanan Kesehatan}{7}
+\contentsline {subsection}{\numberline {2.4.1}Deskripsi Fitur}{7}
+\contentsline {subsection}{\numberline {2.4.2}Kebutuhan Fungsional}{7}
